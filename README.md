@@ -2,8 +2,7 @@
 
 ## Getting Started
 There are 2 folders: 
-GroeneVingersBeheer is for the back-end 
-GroeneVingersWeb is for the front-end
+GroeneVingersBeheer is for the back-end, GroeneVingersWeb is for the front-end
 
 Install/update composer and npm packages (GroeneVingersBeheer and GroeneVingersWeb)
 
