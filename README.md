@@ -1,8 +1,8 @@
 # Laravel Project for Groenevingers
 This project is a Laravel-based web application developed in collaboration with students. It consists of two major components:
 
-Backend: Managing database
-
+### Backend: Managing database
+Made by fellow students in project group
 
 ### Frontend: Website & Shop
 Description:
