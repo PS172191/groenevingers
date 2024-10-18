@@ -1,43 +1,43 @@
-# Dit was een groepsproject voor Leerjaar 3
+#This was a group project for Year 3
 
 ## Getting Started
+There are 2 folders: 
+GroeneVingersBeheer is for the back-end 
+GroeneVingersWeb is for the front-end
 
-Er staan 2 mappen in:
-GroeneVingersBeheer is voor de back-end
-GroeneVingersWeb is voor de front-end
-
-Installeer/update composer en npm packages (GroeneVingersBeheer en GroeneVingersWeb)
+Install/update composer and npm packages (GroeneVingersBeheer and GroeneVingersWeb)
 
 ```bash
+Code kopiëren
 composer install
 composer update
 
 npm install
 npm update
-
 ```
 
-Migrate en Seed een local database (GroeneVingersBeheer)
+Migrate and Seed a local database (GroeneVingersBeheer)
+
 ```bash
+Code kopiëren
 php artisan migrate:fresh --seed
-
 ```
 
-Starten van de applicatie: (GroeneVingersBeheer en GroeneVingersWeb)
+Start the application: (GroeneVingersBeheer and GroeneVingersWeb)
 
 ```bash
+Code kopiëren
 php artisan serve
-# en
+# and
 npm run dev
-
 ```
 
-Open [http://localhost:8000](http://localhost:8000) met je browser om het resultaat te zien.
+Open http://localhost:8000 in your browser to see the result.
 
-## Note: Ik heb alleen in GroeneVingersWeb gewerkt.
+Note: I only worked on GroeneVingersWeb.
 Highlights:
 - Home Page
-- Productencatalogus page
+- Product catalog page
 - Product page
-- Login en Dashboard panels
-- CRUD panels voor admin en medewerkers
+- Login and Dashboard panels
+- CRUD panels for admin and staff
