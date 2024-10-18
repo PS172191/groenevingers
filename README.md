@@ -7,7 +7,6 @@ GroeneVingersBeheer is for the back-end, GroeneVingersWeb is for the front-end
 Install/update composer and npm packages (GroeneVingersBeheer and GroeneVingersWeb)
 
 ```bash
-Code kopiëren
 composer install
 composer update
 
@@ -18,14 +17,12 @@ npm update
 Migrate and Seed a local database (GroeneVingersBeheer)
 
 ```bash
-Code kopiëren
 php artisan migrate:fresh --seed
 ```
 
 Start the application: (GroeneVingersBeheer and GroeneVingersWeb)
 
 ```bash
-Code kopiëren
 php artisan serve
 # and
 npm run dev
