@@ -1,4 +1,4 @@
-#This was a group project for Year 3
+# This was a group project for Year 3
 
 ## Getting Started
 There are 2 folders: 
