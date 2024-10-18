@@ -1,0 +1,15 @@
+.terms {
+    margin-top: 20px;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 100px auto;
+    border-radius: 8px;
+}

@@ -1,0 +1,30 @@
+.search-results {
+    margin-top: 20px;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .result {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        border-bottom: 1px solid black;
+
+        a {
+            color: black;
+        }
+
+        .price-arrow {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+    }
+}

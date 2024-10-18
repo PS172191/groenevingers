@@ -1,0 +1,98 @@
+.button-secondary {
+    border-radius: 8px;
+    /* background-color: var(--secondary-button); */
+    padding: 5px 10px;
+    border: none;
+    margin-right: 20px;
+    color: var(--secondary-button)!important;
+    border: 1px solid var(--secondary-button);
+    background: none;
+}
+
+.button-secondary:hover {
+    background-color: var(--secondary-button);
+    filter: brightness(120%);
+    color: #000 !important;
+}
+
+.button-primary {
+    font-family: "Lato", sans-serif;
+    border-radius: 8px;
+    width: 155px;
+    height: 40px;
+    color: #ffffff;
+    background-color: var(--primary);
+    padding: 5px 10px;
+    border: none;
+}
+
+.button-primary:hover {
+    background-color: var(--secondary-button);
+    color: black;
+}
+
+.card-button {
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: var(--primary);
+    filter: brightness(130%);
+}
+
+.card-button i {
+    margin-right: 5px;
+}
+
+.Vacancies-card-button {
+    width: 100%;
+    background-color: var(--primary);
+    padding: 5px 20px;
+    border: none;
+    font-family: "Lato", sans-serif;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.Vacancies-card-button:hover {
+    background-color: var(--primary);
+    filter: brightness(130%);
+}
+
+.payment-button {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    background-color: var(--primary);
+    border: none;
+    color: #fff;
+}
+
+.payment-button:hover {
+    background-color: var(--primary);
+    filter: brightness(130%);
+}
+
+.contact-button {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+}
+
+.contact-button:hover {
+    background-color: var(--primary);
+    filter: brightness(130%);
+}

@@ -1,0 +1,151 @@
+.footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: var(--nav-footer-color);
+    padding-bottom: 10px;
+    color: var(--white);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-img {
+    width: 50px;
+}
+
+.footer-Nieuwsbrief {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-Navigatie {
+    padding-top: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-Navigatie>a:hover {
+  color: #000;
+
+}
+
+.footer-contact-social {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.footer-contact-social-rond>i {
+    color: #000;
+}
+
+.footer-contact-social-rond {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-copyright-voorwaarden {
+    display: flex;
+    align-items: center;
+    margin-left: calc(50% - 43.2px);
+    font-weight: bold;
+
+    a:hover{
+        color: black;
+    }
+}
+
+.footer-copyright {
+    margin-right: auto;
+    text-align: center;
+
+}
+.footer-copyright>a:hover {
+  color: #000;
+}
+
+.footer-voorwaarden {
+    margin-left: auto;
+}
+
+.footer-Nieuwsbrief-input {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+
+    input {
+        border-style: none;
+    }
+}
+
+.footer-contact-info {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+
+}
+
+.footer-Openinghours {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer-top-padding {
+        padding-top: 30px;
+    }
+
+    .footer-copyright-voorwaarden {
+        display: flex;
+        align-items: center;
+
+        margin-left: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .footer-top-padding {
+        padding-top: 30px;
+    }
+
+    .footer-copyright-voorwaarden {
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .footer-top-padding {
+        padding-top: 0px;
+    }
+
+    .footer-copyright-voorwaarden {
+        display: flex;
+        align-items: center;
+        margin-left: calc(50% - 43.2px);
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

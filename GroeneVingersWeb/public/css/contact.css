@@ -1,0 +1,82 @@
+.contact-titel {
+    padding: 20px 0;
+}
+
+.form-group {
+    padding-bottom: 20px;
+}
+.form-control-vraag {
+    height: 100px;
+}
+.captcha {
+    padding-bottom: 5px;
+}
+
+
+.concact-Telfoonnummer-check{
+    display: flex;
+    gap: 10px;
+
+}
+
+.contact-select-arrow {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.contact-select-arrow select {
+    padding-right: 20px; /* Ruimte reserveren voor de pijl */
+}
+
+.contact-select-arrow .select-arrow {
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Afstand tussen de selectbox en de pijl */
+    transform: translateY(-50%);
+    font-family: "Font Awesome";
+    content: "\f078";
+}
+
+.contact-block-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-Openingstijden-list {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-inf-block {
+  
+}
+.contact-iframe{
+    width: 100%;
+    height: 300px;
+    border: none;
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact-padding {
+        padding-top: 20px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contact-padding {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-padding {
+        padding-top: 0px;
+    }
+}

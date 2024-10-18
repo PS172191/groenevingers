@@ -1,0 +1,121 @@
+
+
+.payment-Delivery{
+    display: flex;
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+.payment-Delivery>input{
+    width: 24px;
+    height: 24px;
+}
+.payment-Delivery-img{
+    object-fit: contain;
+    height: 50px;
+  
+}
+.payment-titel{
+    padding: 20px 0px;
+}
+.payment-titel-info{
+    padding-bottom: 10px;
+}
+.payment-options{
+    display: flex;
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+}
+.payment-dropdown {
+    display: none;
+    margin-top: 15px;
+    width: 100%;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+  }
+
+  .payment-option-img{
+    object-fit: contain;
+    height: 50px;
+  }
+
+  .payment-options>input{
+    width: 24px;
+    height: 24px;
+}
+
+.payment-Samenvatting-backgroud{
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+
+.payment-Samenvatting-totaal{
+    display: flex;
+    justify-content: space-between;
+}
+.payment-Samenvatting-betaal-info{
+    display: flex;
+    flex-direction: column;
+}
+.payment-Samenvatting-check{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+}
+.payment-Samenvatting-check>a{
+   color: #000;
+   text-decoration: underline;
+}
+
+.payment-pading-input{
+    padding:10px 0px ;
+}
+
+.payment-titel-Delivery{
+    padding:20px 0px;
+}
+
+.payment-titel-options{
+    padding:20px 0px;
+}
+
+
+
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        .payment-Samenvatting-backgroud{
+            background-color: var(--bg-color);
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .payment-Samenvatting-backgroud{
+            background-color: var(--bg-color);
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .payment-Samenvatting-backgroud{
+            background-color: var(--bg-color);
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 0;
+        }
+    }
