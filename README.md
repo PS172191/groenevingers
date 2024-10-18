@@ -29,11 +29,3 @@ npm run dev
 ```
 
 Open http://localhost:8000 in your browser to see the result.
-
-Note: I only worked on GroeneVingersWeb.
-Highlights:
-- Home Page
-- Product catalog page
-- Product page
-- Login and Dashboard panels
-- CRUD panels for admin and staff
